@@ -9,7 +9,19 @@
 /* Begin PBXBuildFile section */
 		CFAC3D3C6C69F01E41D494CC /* libPods-ReactiveCocoaManual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 515F349832848F41C8E7198F /* libPods-ReactiveCocoaManual.a */; };
 		DFBDD5110CA9B9B50879BC1B /* libPods-ReactiveCocoaManualTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC833181ADA133666D6AC551 /* libPods-ReactiveCocoaManualTests.a */; };
-		E4466D9C1DDEA26D0011CCA9 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = E4466D9B1DDEA26D0011CCA9 /* Command.m */; };
+		E424EF551F3F5C370038E044 /* RACTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF541F3F5C370038E044 /* RACTransform.m */; };
+		E424EF561F3F5C370038E044 /* RACTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF541F3F5C370038E044 /* RACTransform.m */; };
+		E424EF581F40006B0038E044 /* TransformTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF571F40006B0038E044 /* TransformTest.m */; };
+		E424EF5C1F4007A70038E044 /* RACFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF5B1F4007A60038E044 /* RACFilter.m */; };
+		E424EF5D1F4007A70038E044 /* RACFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF5B1F4007A60038E044 /* RACFilter.m */; };
+		E424EF5F1F4096CA0038E044 /* FilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E424EF5E1F4096CA0038E044 /* FilterTest.m */; };
+		E4352C841F3EDC4800D539E1 /* RACCommonUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = E4352C831F3EDC4800D539E1 /* RACCommonUsage.m */; };
+		E4352C851F3EDC4800D539E1 /* RACCommonUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = E4352C831F3EDC4800D539E1 /* RACCommonUsage.m */; };
+		E43FC62F1F3EDDD200D562A1 /* RACCommonUsageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FC62E1F3EDDD200D562A1 /* RACCommonUsageTest.m */; };
+		E43FC6381F3EF4C600D562A1 /* CommandUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FC6371F3EF4C600D562A1 /* CommandUsage.m */; };
+		E43FC6391F3EF4C600D562A1 /* CommandUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FC6371F3EF4C600D562A1 /* CommandUsage.m */; };
+		E43FC63B1F3EF5FF00D562A1 /* CommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FC63A1F3EF5FF00D562A1 /* CommandTest.m */; };
+		E43FC6421F3EFA5C00D562A1 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FC6411F3EFA5C00D562A1 /* Command.m */; };
 		E46EC79F1C04B06B00D39382 /* HotColdObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EC79E1C04B06B00D39382 /* HotColdObservable.m */; };
 		E46EC7A51C04B10500D39382 /* XKO_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EC7A21C04B10500D39382 /* XKO_ViewModel.m */; };
 		E46EC7A61C04B10500D39382 /* XK_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EC7A41C04B10500D39382 /* XK_ViewController.m */; };
@@ -50,8 +62,20 @@
 		B5DF30FAB2F09519BCB29AEE /* Pods-ReactiveCocoaManual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaManual.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaManual/Pods-ReactiveCocoaManual.release.xcconfig"; sourceTree = "<group>"; };
 		BC833181ADA133666D6AC551 /* libPods-ReactiveCocoaManualTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaManualTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC9704D56214B08FD877DF /* Pods-ReactiveCocoaManualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaManualTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaManualTests/Pods-ReactiveCocoaManualTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4466D9A1DDEA26D0011CCA9 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
-		E4466D9B1DDEA26D0011CCA9 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		E424EF531F3F5C370038E044 /* RACTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTransform.h; sourceTree = "<group>"; };
+		E424EF541F3F5C370038E044 /* RACTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTransform.m; sourceTree = "<group>"; };
+		E424EF571F40006B0038E044 /* TransformTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformTest.m; sourceTree = "<group>"; };
+		E424EF5A1F4007A60038E044 /* RACFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACFilter.h; sourceTree = "<group>"; };
+		E424EF5B1F4007A60038E044 /* RACFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACFilter.m; sourceTree = "<group>"; };
+		E424EF5E1F4096CA0038E044 /* FilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTest.m; sourceTree = "<group>"; };
+		E4352C821F3EDC4800D539E1 /* RACCommonUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommonUsage.h; sourceTree = "<group>"; };
+		E4352C831F3EDC4800D539E1 /* RACCommonUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommonUsage.m; sourceTree = "<group>"; };
+		E43FC62E1F3EDDD200D562A1 /* RACCommonUsageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCommonUsageTest.m; sourceTree = "<group>"; };
+		E43FC6361F3EF4C600D562A1 /* CommandUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandUsage.h; sourceTree = "<group>"; };
+		E43FC6371F3EF4C600D562A1 /* CommandUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandUsage.m; sourceTree = "<group>"; };
+		E43FC63A1F3EF5FF00D562A1 /* CommandTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandTest.m; sourceTree = "<group>"; };
+		E43FC6401F3EFA5C00D562A1 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		E43FC6411F3EFA5C00D562A1 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		E46EC79B1C04AD5100D39382 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		E46EC79D1C04B06B00D39382 /* HotColdObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotColdObservable.h; sourceTree = "<group>"; };
 		E46EC79E1C04B06B00D39382 /* HotColdObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotColdObservable.m; sourceTree = "<group>"; };
@@ -130,13 +154,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E4466D991DDEA2060011CCA9 /* Command */ = {
+		E424EF521F3F5C160038E044 /* 信号转化 */ = {
 			isa = PBXGroup;
 			children = (
-				E4466D9A1DDEA26D0011CCA9 /* Command.h */,
-				E4466D9B1DDEA26D0011CCA9 /* Command.m */,
+				E424EF531F3F5C370038E044 /* RACTransform.h */,
+				E424EF541F3F5C370038E044 /* RACTransform.m */,
 			);
-			path = Command;
+			path = "信号转化";
+			sourceTree = "<group>";
+		};
+		E424EF591F4007920038E044 /* 信号过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				E424EF5A1F4007A60038E044 /* RACFilter.h */,
+				E424EF5B1F4007A60038E044 /* RACFilter.m */,
+			);
+			path = "信号过滤";
+			sourceTree = "<group>";
+		};
+		E4352C811F3EDBC600D539E1 /* 常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				E4352C821F3EDC4800D539E1 /* RACCommonUsage.h */,
+				E4352C831F3EDC4800D539E1 /* RACCommonUsage.m */,
+			);
+			path = "常用方法";
+			sourceTree = "<group>";
+		};
+		E43FC6351F3EF4C600D562A1 /* 使用Command */ = {
+			isa = PBXGroup;
+			children = (
+				E43FC6361F3EF4C600D562A1 /* CommandUsage.h */,
+				E43FC6371F3EF4C600D562A1 /* CommandUsage.m */,
+			);
+			path = "使用Command";
 			sourceTree = "<group>";
 		};
 		E46EC79C1C04B03D00D39382 /* 冷信号和热信号 */ = {
@@ -195,11 +246,16 @@
 			children = (
 				E46EC7A01C04B0DA00D39382 /* 基类 */,
 				E46EC79C1C04B03D00D39382 /* 冷信号和热信号 */,
-				E4466D991DDEA2060011CCA9 /* Command */,
 				E49EC09E1F3D7B1C007555C9 /* 信号合并 */,
+				E4352C811F3EDBC600D539E1 /* 常用方法 */,
+				E43FC6351F3EF4C600D562A1 /* 使用Command */,
+				E424EF521F3F5C160038E044 /* 信号转化 */,
+				E424EF591F4007920038E044 /* 信号过滤 */,
 				E46EC79B1C04AD5100D39382 /* PrefixHeader.pch */,
 				E4B7E5211C04A9A3005BD595 /* AppDelegate.h */,
 				E4B7E5221C04A9A3005BD595 /* AppDelegate.m */,
+				E43FC6401F3EFA5C00D562A1 /* Command.h */,
+				E43FC6411F3EFA5C00D562A1 /* Command.m */,
 				E4B7E5241C04A9A3005BD595 /* ViewController.h */,
 				E4B7E5251C04A9A3005BD595 /* ViewController.m */,
 				E4B7E5271C04A9A3005BD595 /* Main.storyboard */,
@@ -225,6 +281,10 @@
 				E4B7E5381C04A9A3005BD595 /* ReactiveCocoaManualTests.m */,
 				E49EC0A91F3D9C89007555C9 /* RACTest.h */,
 				E49EC0AA1F3D9C89007555C9 /* RACTest.m */,
+				E424EF571F40006B0038E044 /* TransformTest.m */,
+				E424EF5E1F4096CA0038E044 /* FilterTest.m */,
+				E43FC62E1F3EDDD200D562A1 /* RACCommonUsageTest.m */,
+				E43FC63A1F3EF5FF00D562A1 /* CommandTest.m */,
 				E49EC0A31F3D819C007555C9 /* CombineSignalsTest.m */,
 				E4B7E53A1C04A9A3005BD595 /* Info.plist */,
 			);
@@ -308,7 +368,7 @@
 		E4B7E5131C04A9A2005BD595 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ray;
 				TargetAttributes = {
 					E4B7E51A1C04A9A2005BD595 = {
@@ -475,13 +535,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46EC79F1C04B06B00D39382 /* HotColdObservable.m in Sources */,
+				E4352C841F3EDC4800D539E1 /* RACCommonUsage.m in Sources */,
+				E424EF5C1F4007A70038E044 /* RACFilter.m in Sources */,
 				E49EC0A11F3D7BA2007555C9 /* CombineSignals.m in Sources */,
+				E43FC6381F3EF4C600D562A1 /* CommandUsage.m in Sources */,
 				E46EC7A51C04B10500D39382 /* XKO_ViewModel.m in Sources */,
+				E424EF551F3F5C370038E044 /* RACTransform.m in Sources */,
 				E4B7E5261C04A9A3005BD595 /* ViewController.m in Sources */,
-				E4466D9C1DDEA26D0011CCA9 /* Command.m in Sources */,
 				E46EC7A61C04B10500D39382 /* XK_ViewController.m in Sources */,
 				E4B7E5231C04A9A3005BD595 /* AppDelegate.m in Sources */,
 				E4B7E5201C04A9A3005BD595 /* main.m in Sources */,
+				E43FC6421F3EFA5C00D562A1 /* Command.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +555,16 @@
 			files = (
 				E4B7E5391C04A9A3005BD595 /* ReactiveCocoaManualTests.m in Sources */,
 				E49EC0A41F3D819C007555C9 /* CombineSignalsTest.m in Sources */,
+				E424EF581F40006B0038E044 /* TransformTest.m in Sources */,
 				E49EC0AB1F3D9C89007555C9 /* RACTest.m in Sources */,
 				E49EC0A21F3D7BA2007555C9 /* CombineSignals.m in Sources */,
+				E424EF561F3F5C370038E044 /* RACTransform.m in Sources */,
+				E424EF5D1F4007A70038E044 /* RACFilter.m in Sources */,
+				E4352C851F3EDC4800D539E1 /* RACCommonUsage.m in Sources */,
+				E43FC62F1F3EDDD200D562A1 /* RACCommonUsageTest.m in Sources */,
+				E424EF5F1F4096CA0038E044 /* FilterTest.m in Sources */,
+				E43FC6391F3EF4C600D562A1 /* CommandUsage.m in Sources */,
+				E43FC63B1F3EF5FF00D562A1 /* CommandTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,14 +619,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -593,14 +671,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
